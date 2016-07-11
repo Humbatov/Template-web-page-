@@ -1,0 +1,439 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+     font-family: VarelaRound;
+     src: url(../fonts/VarelaRound-Regular.ttf);
+}
+
+/*    Common classes     */
+
+.text_header{
+    font-family: VarelaRound;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+     color: #353535;
+    margin: 0;
+}
+
+
+
+.description_text, .threeColumn_text, .text {
+    text-align: justify;
+    color: #ABB0B6; 
+    line-height: 25px;
+    padding: 10px
+}
+
+hr {
+    width: 40px;
+    height: 5px;
+    background: #3DC9B3;
+    border: none;
+    ;
+    
+}
+
+.share_icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.clearFix{
+    clear:both;
+}
+
+/*    Main     */
+
+.main{
+    width: 1300px;
+    margin: 10px auto;
+    box-shadow: 1px 1px 5px ;
+    
+}
+
+/*    Header     */
+
+.header{
+    width: 100%;
+    height: 654px;
+    position: relative;
+    
+}
+
+
+
+.header img:first-child{
+    width: 100%;
+}
+
+.header_text{
+    width: 100%;
+    position: absolute;
+    top:165px;
+    color:#969DA2;
+    font-family: VarelaRound;
+}
+
+.header_text p:first-child{
+    font-size: 40px;
+    margin-bottom: 20px
+    
+}
+
+.header_text p span{
+    color:#353535;
+}
+
+.threeLines{
+    position: absolute;
+    top:10px;
+    left:1200px;
+    width: 40px;
+}
+
+.header_button{
+    width:255px;
+    height: 60px;
+    border-radius: 5px;
+    border-bottom: 3px solid #309383;
+    line-height: 60px;
+    text-align: center;
+    font-family: VarelaRound;
+    background: #3DC9B3;
+    margin: 50px auto;
+    color:white;
+    
+}
+
+
+/*    Description     */
+
+.description{
+    width: 100%;
+    padding-top: 30px;
+    background:#F3F5F8;
+    padding-top: 60px
+        
+}
+
+.description_img{
+    margin: 0 auto;
+}
+
+.description_text{
+    padding: 30px 100px 100px 100px; 
+    
+    margin: 0;
+}
+
+
+
+/*    Content1     */
+.content1{
+    width: 100%;
+    background: #FFFF;
+    padding: 60px 0 20px 0
+}
+
+.threeColumn div{
+    width:360px;
+    height: 400px;
+/*    border: 1px solid black;*/
+    float: left;
+    margin: 20px 20px 90px 20px;
+    
+}
+
+.threeColumn div:first-child{
+    margin-left: 80px;
+}
+
+.threeColumn_img{
+    width: 100%;
+    margin-bottom: 40px;
+    
+}
+
+.threeColumn_img-content1{
+    width: 200px;
+    height:200px ;
+    margin: 10px 75px 30px;
+    
+}
+
+.content1_img{
+    width: 650px;
+    height: 650px;
+    overflow-x: hidden;
+    position: relative;
+    background:#F3F5F8;
+    display: inline-block;
+}
+
+.content1_img-shift{
+    position: absolute;
+    left:169px;
+  
+    
+}
+
+.content1_text{
+    width: 550px;
+    height: 570px;
+    float:right;
+    padding: 80px 50px 0 50px
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*    Content2     */
+
+.content2{
+    position: relative;
+}
+.content2_header{
+    width: 100%;
+    height: 300px;
+    overflow:hidden;
+    position: relative;
+    margin-bottom: 60px;
+    
+}
+
+.content2_img{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    top: -200px;
+
+}
+
+.content2_img-part2{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background: red;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.content2_img-part2 img{
+    position: absolute;
+    top: -800px;
+    left: -100px
+}
+
+.content2_text{
+    position: absolute;
+    top:60px;
+    left: 400px;
+    z-index: 3;
+  
+}
+
+.content2_text p{
+    text-align: center;
+    color: white;
+    font-family: VarelaRound;
+    font-size: 50px;
+    margin:0;
+    word-spacing: 9px;
+    letter-spacing: 4px;
+}
+
+.content2_text p:nth-child(2){
+    font-size: 30px
+}
+
+.circleBtn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #309383;
+    position: relative;
+    margin: 50px auto;
+}
+
+.circleBtn:before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    position: absolute;
+    top: 11px;
+    left: 13px;
+    transform: rotate(225deg);
+    
+}
+
+
+/*    Content 3     */
+
+.content3_header{
+    width: 100%;
+    height: 210px;
+    background:#242830 ;
+    position: relative;
+    margin-bottom: 60px;
+        
+}
+
+.btn{
+    width: 255px;
+    height: 70px;
+    border: 1px solid white;
+    position: absolute;
+    top: 70px;
+    left: 522.5px;
+    color: white;
+    line-height: 70px;
+}
+
+.btn p{
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Calibry;
+    
+}
+
+.threeColumn_img-content3{
+    width: 180px;
+    margin-left: 90px
+}
+
+/*    Contact     */
+
+
+
+.contact_header{
+    width: 100%;
+    height: 445px;
+    position: relative;
+    
+}
+
+.circleBtn-mod{
+    top: -70px;
+    transform: rotate(180deg);
+}
+
+.contact_header div:first-child{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.contact_img{
+    width: 1300px;
+    position: absolute;
+    top: -510px;
+}
+
+.contact_header div:nth-child(2){
+    width: 100%;
+    height: 145px;
+    overflow: hidden;
+    position: relative;
+}
+
+.contact_img-part2{
+    width: 1300px;
+    position: absolute;
+    top: -370px;
+}
+
+.contact_subscribe{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    top: 0px;
+}
+
+.text_header-white{
+    color: white;
+    margin-top: 175px;
+    
+}
+
+input[name="subscribe"]{
+    width: 390px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid white;
+    color:  white;
+}
+
+input[name="submit"]{
+    width: 85px;
+    height: 65px;
+    border: none;
+    background: rgba(71,142,135,0.8);
+    color:wheat;
+    font-family: VarelaRound;
+    font-size: 16px;
+ 
+}
+
+.contact_adress{
+    background: #F3F5F8;
+    padding-top: 60px;
+    padding-bottom: 20px
+}
+
+.contact_info {
+    width: 300px;
+    height: 170px;
+    background: #FFFFFF;
+    float: left;
+    margin: 70px 20px;
+    padding-top: 30px
+    
+}
+
+.contact_info h1{
+    color:#3DC9B3;
+}
+
+.contact_info:first-child{
+    margin-left: 160px
+}
+
+.text-small{
+font-size: 15px;
+}
+
+/*    Footer     */
+
+.footer{
+    width: 100%-200px;
+    height: 125px;
+    background: #242830;
+    padding: 30px 0 0 200px;
+    color:#7F868D;
+    position: relative;
+}
+
+.footer p:first-child{
+    display: inline-block;
+}
+
+.footer p:last-child{
+    float: right;
+    margin-right: 90px;
+}
+.footer span{
+    color: white;
+    font-weight: 100;
+}
